@@ -1,0 +1,12 @@
+com/shermatov/customer/CustomerRepositoryTest.class
+com/shermatov/journey/CustomerIT.class
+com/shermatov/journey/CustomerIT$1.class
+com/shermatov/customer/CustomerJPADataAccessServiceTest.class
+com/shermatov/journey/CustomerIT$3.class
+com/shermatov/customer/CustomerServiceTest.class
+com/shermatov/customer/CustomerJDBCDataAccessServiceTest.class
+com/shermatov/journey/CustomerIT$4.class
+com/shermatov/AbstractTestcontainers.class
+com/shermatov/TestContainersTest.class
+com/shermatov/journey/CustomerIT$2.class
+com/shermatov/customer/CustomerRowMapperTest.class

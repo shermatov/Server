@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ef06010-5ebb-4d35-97d3-2e9ed18cf955" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../E3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerJDBCDataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerJPADataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerListDateAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/exception/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/exception/RequestValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Initial_Setup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_Unique_Constraint_To_Customer_Email.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/AbstractTestcontainers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/TestContainersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerJDBCDataAccessServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerJPADataAccessServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerRowMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/journey/CustomerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-example/src/main/resources/db/ migration/V1__Initial_Setup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Screenshot 2023-11-07 at 14.38.02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/AbstractTVSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/Episode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/TVSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/TVSeriesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Secretary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Technician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/META-INF/Software-En6.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/AbstractTVSeries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/Episode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/TVSeries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/TVSeriesImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Secretary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Technician.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/src/main/java/com/aibek/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/src/main/resources/migration/V2__Add_Unique_Constraint_To_Customer_Email.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/ChallengeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/controller/PlanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/model/Plan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/repository/PlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/service/PlanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/service/PlanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/resources/templates/add-plan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/resources/templates/plans.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerJPADataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerListDataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/exeption/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/exeption/RequestValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/exeption/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/resources/db.migration/V1__Initial_Setup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/resources/db.migration/V2__Add_Unique_Constraint_To_Customer_Email.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../learning-git" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="CustomerIT.canRegisterACustomer" />
+    </enabled-run-configurations>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2SNsj9NeVtUXtqNDydaHCpZiT3j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/main/resources/db/migration&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.viewMode&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4b8fbcb451c1e95272e8271525759486&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect&quot;: [
+      &quot;PostgreSQL&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/aibek" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migrations" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.aibek.customer" />
+      <recent name="com.aibek.customer.service" />
+      <recent name="com.aibek.customer.repository" />
+      <recent name="com.aibek" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.aibek.customer" />
+      <recent name="com.aibek.customer.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="V1__Initial_Setup.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/db/migration/V1__Initial_Setup.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shermatov.journey.CustomerIT" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aibek.journey" />
+      <option name="MAIN_CLASS_NAME" value="com.shermatov.journey.CustomerIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerJDBCDataAccessServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shermatov.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aibek.customer" />
+      <option name="MAIN_CLASS_NAME" value="com.shermatov.customer.CustomerJDBCDataAccessServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerJDBCDataAccessServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-boot-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aibek.customer.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aibek.customer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.aibek.customer.service.CustomerJDBCDataAccessServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerJDBCDataAccessServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-boot-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aibek.customer.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aibek.customer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.aibek.customer.service.CustomerJDBCDataAccessServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-boot-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aibek.customer.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aibek.customer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.aibek.customer.service.CustomerRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shermatov-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shermatov.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="src: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="src/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="src.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.src.db: Compose Deployment" />
+        <item itemvalue="Database Script.V1__Initial_Setup.sql" />
+        <item itemvalue="Docker.src: Compose Deployment" />
+        <item itemvalue="JUnit.CustomerIT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ef06010-5ebb-4d35-97d3-2e9ed18cf955" name="Changes" comment="" />
+      <created>1688998509042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688998509042</updated>
+      <workItem from="1688998510591" duration="1394000" />
+      <workItem from="1689071253776" duration="12377000" />
+      <workItem from="1690393197695" duration="1644000" />
+      <workItem from="1690467429809" duration="6107000" />
+      <workItem from="1694334388465" duration="1229000" />
+      <workItem from="1696243930024" duration="2327000" />
+      <workItem from="1696882845654" duration="250000" />
+      <workItem from="1699952219942" duration="20961000" />
+      <workItem from="1700146552328" duration="69535000" />
+      <workItem from="1701341810206" duration="862000" />
+      <workItem from="1701342732996" duration="1726000" />
+      <workItem from="1702217604430" duration="32114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerJPADataAccessServiceTest_selectAllCustomers.ic" NAME="CustomerJPADataAccessServiceTest.selectAllCustomers Coverage Results" MODIFIED="1701105279201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerRepositoryTest_existsCustomerByAge.ic" NAME="CustomerRepositoryTest.existsCustomerByAge Coverage Results" MODIFIED="1700746272920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$Main.ic" NAME="Main Coverage Results" MODIFIED="1690483562518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerJPADataAccessServiceTest.ic" NAME="CustomerJPADataAccessServiceTest Coverage Results" MODIFIED="1701105984698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerJDBCDataAccessServiceTest.ic" NAME="CustomerJDBCDataAccessServiceTest Coverage Results" MODIFIED="1700390730565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerRepositoryTest__1_.ic" NAME="CustomerRepositoryTest (1) Coverage Results" MODIFIED="1701104015826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$TestContainersTest_canStartPostgresDB.ic" NAME="TestContainersTest.canStartPostgresDB Coverage Results" MODIFIED="1701104029928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$TestContainersTest.ic" NAME="TestContainersTest Coverage Results" MODIFIED="1701103608821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerRepositoryTest.ic" NAME="CustomerRepositoryTest Coverage Results" MODIFIED="1700758133683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerServiceTest.ic" NAME="CustomerServiceTest Coverage Results" MODIFIED="1701181843248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerJDBCDataAccessServiceTest__1_.ic" NAME="CustomerJDBCDataAccessServiceTest (1) Coverage Results" MODIFIED="1702249183612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerIntegrationTest.ic" NAME="CustomerIntegrationTest Coverage Results" MODIFIED="1702248468982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.journey.CustomerIntegrationTest</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerRepositoryTest__2_.ic" NAME="CustomerRepositoryTest (2) Coverage Results" MODIFIED="1700758014650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerJDBCDataAccessServiceTest_insertCustomer.ic" NAME="CustomerJDBCDataAccessServiceTest.insertCustomer Coverage Results" MODIFIED="1700390804814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.customer.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_boot_project$CustomerIntegrationTest_canRegisterACustomer.ic" NAME="CustomerIntegrationTest.canRegisterACustomer Coverage Results" MODIFIED="1701190109282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aibek.journey.*</FILTER>
+    </SUITE>
+  </component>
+</project>
