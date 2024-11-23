@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="customer@localhost">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.49">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
       <IntrospectionStateNumber>800</IntrospectionStateNumber>
@@ -4814,18 +4814,17 @@ false posixrules
       <Comment>standard public schema</Comment>
       <Current>1</Current>
       <IntrospectionStateNumber>800</IntrospectionStateNumber>
-      <IntrospectionTimestamp>2023-12-13.02:09:56.878</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-13.01:09:57</LocalIntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2023-12-13.01:09:57</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="262" parent="261" name="customer_id_seq">
-      <DasType>bigint|0s</DasType>
       <ObjectId>16464</ObjectId>
-      <SequenceIdentity>1(1)</SequenceIdentity>
+      <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>797</StateNumber>
+      <StoredType>bigint|0s</StoredType>
       <OwnerName>shermatov</OwnerName>
     </sequence>
     <table id="263" parent="261" name="customer">
@@ -4841,33 +4840,33 @@ false posixrules
       <OwnerName>shermatov</OwnerName>
     </table>
     <column id="265" parent="263" name="id">
-      <DasType>bigint|0s</DasType>
       <DefaultExpression>nextval(&apos;customer_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>797</StateNumber>
+      <StoredType>bigint|0s</StoredType>
       <SequenceId>16464</SequenceId>
       <TypeId>20</TypeId>
     </column>
     <column id="266" parent="263" name="name">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>797</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="267" parent="263" name="email">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>797</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="268" parent="263" name="age">
-      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>797</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <index id="269" parent="263" name="customer_pkey">
@@ -4902,72 +4901,72 @@ false posixrules
       <UnderlyingIndexId>16473</UnderlyingIndexId>
     </key>
     <column id="273" parent="264" name="installed_rank">
-      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <column id="274" parent="264" name="version">
-      <DasType>varchar(50)|0s</DasType>
       <Position>2</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="275" parent="264" name="description">
-      <DasType>varchar(200)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>varchar(200)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="276" parent="264" name="type">
-      <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="277" parent="264" name="script">
-      <DasType>varchar(1000)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>varchar(1000)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="278" parent="264" name="checksum">
-      <DasType>integer|0s</DasType>
       <Position>6</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <column id="279" parent="264" name="installed_by">
-      <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="280" parent="264" name="installed_on">
-      <DasType>timestamp|0s</DasType>
       <DefaultExpression>now()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>8</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
     <column id="281" parent="264" name="execution_time">
-      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <column id="282" parent="264" name="success">
-      <DasType>boolean|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
       <StateNumber>769</StateNumber>
+      <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
     <index id="283" parent="264" name="flyway_schema_history_pk">

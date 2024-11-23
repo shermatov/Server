@@ -1,8 +1,8 @@
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/TestContainersTest.java
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/customer/CustomerRowMapperTest.java
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/customer/CustomerServiceTest.java
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/customer/CustomerJPADataAccessServiceTest.java
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/journey/CustomerIT.java
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/customer/CustomerJDBCDataAccessServiceTest.java
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/AbstractTestcontainers.java
-/Users/aibek_shermatov/Desktop/Not Important/project/Spring-boot-project/src/test/java/com/shermatov/customer/CustomerRepositoryTest.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/AbstractTestcontainers.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/customer/CustomerRepositoryTest.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/TestContainersTest.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/customer/CustomerRowMapperTest.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/journey/CustomerIT.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/customer/CustomerServiceTest.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/customer/CustomerJDBCDataAccessServiceTest.java
+/Users/aibek_shermatov/Desktop/Spring-example/src/test/java/com/shermatov/customer/CustomerJPADataAccessServiceTest.java

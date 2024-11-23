@@ -4,114 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ef06010-5ebb-4d35-97d3-2e9ed18cf955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../E3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../E3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerJDBCDataAccessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerJPADataAccessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerListDateAccessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerRegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/customer/CustomerUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/exception/DuplicateResourceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/exception/RequestValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shermatov/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Initial_Setup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_Unique_Constraint_To_Customer_Email.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/AbstractTestcontainers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/TestContainersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerJDBCDataAccessServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerJPADataAccessServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerRowMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/customer/CustomerServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shermatov/journey/CustomerIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-example/src/main/resources/db/ migration/V1__Initial_Setup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Screenshot 2023-11-07 at 14.38.02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/AbstractTVSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/Episode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/TVSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/first/TVSeriesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Secretary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/src/main/java/soft/eng/second/Technician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/META-INF/Software-En6.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/AbstractTVSeries.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/Episode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/TVSeries.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/first/TVSeriesImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Secretary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Software-En6/target/classes/soft/eng/second/Technician.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/src/main/java/com/aibek/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring-Boot_Example/src/main/resources/migration/V2__Add_Unique_Constraint_To_Customer_Email.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/ChallengeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/controller/PlanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/model/Plan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/repository/PlanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/service/PlanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/java/com/example/challengeprogram/service/PlanServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/resources/templates/add-plan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../challenge-program/src/main/resources/templates/plans.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerJPADataAccessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerListDataAccessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerRegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/customer/CustomerUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/exeption/DuplicateResourceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/exeption/RequestValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/java/com/aibek/exeption/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/resources/db.migration/V1__Initial_Setup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../spring-boot-example/src/main/resources/db.migration/V2__Add_Unique_Constraint_To_Customer_Email.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../learning-git" beforeDir="false" />
-    </list>
+    <list default="true" id="4ef06010-5ebb-4d35-97d3-2e9ed18cf955" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -300,7 +193,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shermatov-api" />
+      <module name="Spring-example" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shermatov.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
